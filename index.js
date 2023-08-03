@@ -11,7 +11,7 @@ app.use(cookieParser());
 app.use(cors());
 
 const configuration = new Configuration({
-  apiKey:"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", // Make sure to set your API key in the environment variable OPENAI_API_KEY
+  apiKey:"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", // Make sure to set your API key in the environment variable OPENAI_API_KEY
 });
 const openai = new OpenAIApi(configuration);
 
