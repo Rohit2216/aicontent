@@ -4,10 +4,10 @@ const express = require("express");
 const app = express();
 const { Configuration, OpenAIApi } = require("openai");
 const cors = require("cors");
-const cookieParser = require("cookie-parser");
+// const cookieParser = require("cookie-parser");
 
 app.use(express.json());
-app.use(cookieParser());
+// app.use(cookieParser());
 app.use(cors());
 
 const configuration = new Configuration({
